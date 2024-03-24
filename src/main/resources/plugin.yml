@@ -1,0 +1,8 @@
+name: ListenToPlayer
+version: '${version}'
+main: org.nuomi.listentoplayer.ListenToPlayer
+api-version: '1.19'
+commands:
+  ltp:
+    description: 将收集到的玩家聊天发送至OP邮件。
+    permission: listentomessage.op
