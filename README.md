@@ -1,9 +1,9 @@
 # ListenToPlayer
-The first server plugin as a zero-based learner of Java.
-It's just a simple listener plugin,which is used to listening  messages or commands players sent automatically.
-It can also listen the specified words in the config.yml.
-You can edit the config.yml to set your email profile or other things.
-Used javax.
+The first server plugin as a zero-based learner of Java.  
+It's just a simple listener plugin,which is used to listening  messages or commands players sent automatically.  
+It can also listen the specified words in the config.yml.  
+You can edit the config.yml to set your email profile or other things.  
+Used javax and gradle shadow.
 
 # Commands /ltp
  - /ltp help  -Finding help.
