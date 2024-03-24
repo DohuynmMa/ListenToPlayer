@@ -7,12 +7,22 @@ Used javax.
 
 # Commands /ltp
  - /ltp help  Finding help.
- - /ltp mail  sending email with messages or commands collected,and clear gather.
+ - /ltp mail         sending email with messages or commands collected,and clear gather.
+ -           all     sending messages and commands
+ -           message sending messages
+ -           command sending commands
  - /ltp word  adding a listening messages word.(If the gather is empty,the plugin will listen all messages)
- - /ltp list  listing all messages or commands collected.
- - /ltp time  setting wether to sending email automatically on a scheduled basis or setting the sending time.It not seems to work?
+ - /ltp list         listing all messages or commands collected.
+ -           message listing messages
+ -           command listing commands
+ - /ltp time            setting wether to sending email automatically on a scheduled basis or setting the sending time.It not seems to work?
+ -           false      will not send email automatically.
+ -           true       will send email automatically.
+ -           set <int>  set sending time(h).
  - /ltp reload reload config.
- - /ltp clear clear the messages' or commands' gather.
+ - /ltp clear        clear the messages' or commands' gather.
+ -           message clear messages
+ -           command clear commands
 
 # Version
 Bukkit Spigot 1.19.4
