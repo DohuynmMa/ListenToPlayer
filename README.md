@@ -31,5 +31,5 @@ Used javax.
 Bukkit Spigot 1.19.4
 
 # Build
-./gradlew shadowJar
+./gradlew shadowJar  
 gradle build
